@@ -33,3 +33,20 @@ void searchWikipedia(List<String>? arguments) {
   print('Dang tim: "$articleTitle"...');
   print('Tim thay!');
 }
+
+/*
+
+Hàm main nhận các tham số người dùng nhập từ terminal và xử lý như sau:
+- Nếu không nhập gì hoặc nhập "help" thì hiển thị hướng dẫn sử dụng.
+- Nếu nhập "version" thì in ra phiên bản của chương trình.
+- Nếu nhập "search" thì gọi hàm searchWikipedia để xử lý tìm kiếm, ko tìm kiếm thật mà giả lập, in ra từ được nhập.
+- Nếu nhập sai lệnh thì cũng hiển thị lại hướng dẫn.
+
+Hàm printUsage dùng để in ra danh sách các lệnh hợp lệ.
+
+Hàm searchWikipedia thực hiện việc xử lý tìm kiếm:
+- Nếu người dùng không nhập nội dung tìm kiếm thì yêu cầu nhập từ bàn phím.
+- Nếu đã nhập sẵn thì ghép các từ lại thành một chuỗi hoàn chỉnh.
+- Sau đó in ra thông báo đang tìm kiếm và kết quả giả lập.
+
+*/
